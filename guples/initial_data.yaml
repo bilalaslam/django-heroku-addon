@@ -1,0 +1,10 @@
+- model: guples.Plan
+  pk: 1
+  fields:
+    name: test
+    max_guples: 10
+- model: guples.Plan
+  pk: 2
+  fields:
+    name: test
+    max_guples: 20

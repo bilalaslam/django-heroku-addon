@@ -1,0 +1,12 @@
+<html>
+	<head>
+		<title>My Heroku Addon</title>
+	</head>
+	<body>
+		{{ nav_header|safe }}
+		<p>Hello!</p>
+		<p>Your secret key is {{ guple_store.secret_key }}</p>
+		<p>You are on plan {{ guple_store.plan.name }}<p>
+		<p>You are logged in with email {{ email }}</p>
+	</body>
+</html>

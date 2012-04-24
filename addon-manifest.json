@@ -1,0 +1,16 @@
+{
+  "id": "guples",
+  "api": {
+    "config_vars": [ "GUPLES_ACCESS_URL" ],
+    "password": "password_goes_here",
+    "sso_salt": "salt_goes_here",
+    "production": {
+      "base_url": "https://yourapp.herokuapp.com/heroku/resources",
+      "sso_url": "https://yourapp.herokuapp.com/sso/login"
+    },
+    "test": {
+      "base_url": "http://localhost:8000/heroku/resources",
+      "sso_url": "http://localhost:8000/sso/login"
+    }
+  }
+}
